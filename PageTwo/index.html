@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+   overflow-x: hidden;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #070C27;
+}
+.container{
+ color:white;
+ 
+    height: 100vh;
+ width: 100%;
+ background: #070C27;   
+}
+.navbar{
+ height: 8vh;
+ display: flex;
+position: absolute;
+ width: 100%;
+ padding-top: 20px;
+
+}
+.lis{
+    width: 100%;
+    display: flex;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content:space-evenly;
+    
+}
+.main{
+    display: flex;
+    position: relative;
+    
+    height: 100vh;
+    width: 100%;
+}
+.left{
+    width: 40%;
+   
+    height: 100vh;
+
+display:flex ;
+padding: 0px 50px;
+flex-direction: column;
+justify-content: center;
+}
+
+.right{
+    width: 50%;
+
+
+    height: 100vh;
+display: flex;
+padding-top: 63px;
+justify-content: center;
+align-items: center;
+padding-right: 197px;
+}
+img{
+
+    width:984px;
+    height: auto;
+
+    display: block;
+}
+.other{
+
+    height: 100vh ;
+display: flex ; 
+padding: 0px 100px;
+flex-direction: column;
+justify-content: center;
+flex-wrap:wrap;
+
+    position: absolute;
+}
+h1{
+    font-size: clamp(100px,10px,40px);
+margin-bottom: 10px;
+font-weight: 900;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+button {
+    
+        width: fit-content;
+        padding: 14px 28px;
+        background: whitesmoke;
+        color: #080D27;
+        border: none;
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 15px;
+        cursor: pointer;
+    }
+p{
+    font-size: clamp(1vw,2.8rem,1.1rem);
+}
+.root{
+        height: 100vh;
+ width: 100%;
+ padding-left: 50px;
+ padding-right: 200px;
+}
+.f{
+
+    width: 60%;
+}
+.dii{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.e{
+    height: 100vh;
+    width: 80%;
+    border-radius: 30px;
+background: #1A2658;
+}
+</style>
+<body>
+  <div class="root">
+      <div class="container">
+        <div class="navbar">
+            <div class="lis">
+                <p>Features</p>
+        <span>*</span>
+                <p>Pricing</p>
+                <span>*</span>    
+                <p>Faqs</p>
+                <span>*</span>    
+                <p>Download</p>
+            </div>
+        </div>
+  <div class="main">
+          <div class="left">
+                
+          </div>
+          <div class="other">
+            <div class="f">
+                
+                <span style="color:yellow;">Video editing</span>
+            <h1>Amazingly simple</h1>
+            <p style="margin-bottom: 20px;">We designed XORA AI Video Editor to be an easy to use,
+                <br>
+                quick to learn and surprisingly powerful.</p>
+            <button>Try it now</button>
+   
+            </div>
+          </div>
+        <div class="right">
+<img src="./hero.png" alt="">
+
+        </div>
+  
+  </div>
+
+    </div>
+ 
+</div>
+<!-- <div class="dii">
+<div class="e"></div>
+</div> -->
+</body>
+</html>
